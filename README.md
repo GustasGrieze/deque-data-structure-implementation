@@ -24,3 +24,33 @@ A `Makefile` is provided for easy compilation. To compile the project, navigate 
 
 ```bash
 make
+```
+
+This command compiles the code and generates an executable named `deque_program`
+
+### Running the Program
+
+After compilation, you can run the program by executing:
+
+```bash
+./deque_program
+```
+
+This will execute the main program, demonstrating the deque's capabilities.
+
+### Cleaning Up
+
+To clean up the compiled objects and executable, run:
+
+```bash
+make clean
+```
+
+This command removes all the generated files by the compilation process, leaving only the source files.
+
+## File Structure
+
+- `deque.h`: Header file defining the deque structure and its interface.
+- `deque.c`: Implementation of the deque's functionalities.
+- `main.c`: Demonstrates the usage of the deque with a series of tests.
+- `Makefile`: Simplifies the build process with make commands.
